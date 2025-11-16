@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <a href="mailto:email@example.com">Conference email</a><br /><br />
+      <a href="#" target="_blank">Twitter</a>
+      <br />
+      <br />
+      <style>
+        .map-responsive {
+          overflow: hidden;
+          padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width * 100) */
+          position: relative;
+          height: 0;
+        }
+
+        .map-responsive iframe {
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+      </style>
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44927.92674169231!2d35.118496204678976!3d11.197506220081333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2set!4v1763308011713!5m2!1sen!2set"
+          width="600"
+          height="450"
+          style="border: 2px black solid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <br />
+      <br />
+      <form action="">
+        <label for=""
+          >Name:
+          <input type="text" placeholder="Name" />
+        </label>
+        <br />
+        <br />
+        <label for="email">
+          Email:
+          <input type="text" value="" placeholder="Email" />
+        </label>
+        <br />
+        <br />
+        <label for="message">
+          Entry text: <br />
+          <textarea></textarea>
+        </label>
+        <br />
+        <br />
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer>
+      <style>
+        .copyright-container {
+          text-align: center;
+          gap: 5px;
+        }
+      </style>
+      <div class="copyright-container">
+        <span>&copy;</span>
+        <span> 2025 Abriham. All right </span>
+      </div>
+    </footer>
+  </body>
+</html>
